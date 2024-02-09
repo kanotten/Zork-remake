@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+    <title>Zork Remake</title>
+</head>
+
+<body>
+    <div id="terminal">
+        <div id="output"></div>
+        <div id="input-line">
+            <span class="prompt">></span>
+            <input type="text" id="input" onblur="this.focus()" autofocus>
+        </div>
+    </div>
+
+    <script src="js/actions.js"></script>
+    <script src="js/rooms.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/items.js"></script>
+</body>
+
+</html>
